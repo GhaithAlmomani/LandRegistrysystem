@@ -21,6 +21,12 @@
         <div id="newOwnerdHelp" class="form-text">Enter The new owner ID</div>
     </div>
 
+    <div class="mb-3">
+        <label for="newOwner" class="form-label">Previous Owner Address</label>
+        <input type="text" class="form-control" id="previousOwner" aria-describedby="previousOwnerHelp" required>
+        <div id="previousOwnerdHelp" class="form-text">Enter The previous owner ID</div>
+    </div>
+
     <button type="submit" class="btn btn-primary">Transfer Ownership</button>
 
 
@@ -32,13 +38,10 @@
 <p id="status"></p>
 
 <script>
-
-
-        let web3;
-        let contract;
-
-        window.addEventListener('load', async () => {
-            if (window.ethereum) {
+    let web3;
+    let contract;
+    window.addEventListener('load', async () => {
+        if (window.ethereum) {
             web3 = new Web3(window.ethereum);
             await window.ethereum.request({ method: 'eth_requestAccounts' });
 
@@ -50,21 +53,52 @@
         } else {
             document.getElementById("status").innerText = "Please install MetaMask!";
         }
-        });
+    });
+    document.getElementById('transferOwnershipForm').addEventListener('submit', async (event) => {
+        event.preventDefault();
 
-        document.getElementById('transferOwnershipForm').addEventListener('submit', async (event) => {
-            event.preventDefault();
+        const propertyId = document.getElementById('propertyId').value;
+        const newOwner = document.getElementById('newOwner').value;
+        const previousOwner = document.getElementById('previousOwner').value;
 
-            const propertyId = document.getElementById('propertyId').value;
-            const newOwner = document.getElementById('newOwner').value;
-
-            try {
+        try {
             const accounts = await web3.eth.getAccounts();
-            await contract.methods.transferOwnership(propertyId, newOwner).send({ from: accounts[0] });
+            await contract.methods.transferOwnership(
+                propertyId,
+                previousOwner,
+                newOwner
+            ).send({ from: accounts[0] });
+
             document.getElementById("status").innerText = "Ownership transferred successfully!";
         } catch (error) {
             console.error(error);
             document.getElementById("status").innerText = "Error during ownership transfer.";
         }
-        });
+    });
+    // Optional: Additional event listeners for property registration or authorization management
+    document.getElementById('registerPropertyForm')?.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const propertyId = document.getElementById('propertyId').value;
+        const owner = document.getElementById('owner').value;
+        const description = document.getElementById('description').value;
+        const latitude = document.getElementById('latitude').value;
+        const longitude = document.getElementById('longitude').value;
+
+        try {
+            const accounts = await web3.eth.getAccounts();
+            await contract.methods.registerProperty(
+                propertyId,
+                owner,
+                description,
+                latitude,
+                longitude
+            ).send({ from: accounts[0] });
+
+            document.getElementById("status").innerText = "Property registered successfully!";
+        } catch (error) {
+            console.error(error);
+            document.getElementById("status").innerText = "Error during property registration.";
+        }
+    });
 </script>

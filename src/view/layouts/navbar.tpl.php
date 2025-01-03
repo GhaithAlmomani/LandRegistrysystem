@@ -15,7 +15,13 @@
         <a href="home"><i class="fas fa-home"></i><span>Home</span></a>
         <a href="about"><i class="fas fa-question"></i><span>About</span></a>
         <a href="learn-more"><i class="fas fa-chalkboard-user"></i><span>Learn More</span></a>
+        <?php
+        $x =1;
+        if($x==1){
+        ?>
+
         <a href="contact"><i class="fas fa-headset"></i><span>Contact us</span></a>
+    <?php }?>
     </nav>
 
 </div>

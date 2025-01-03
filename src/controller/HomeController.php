@@ -20,7 +20,11 @@ class HomeController extends Controller
 
     public function home(): bool|array|string
     {
-        return $this->render('home.home');
+        if (isset($_SESSION['Username'])) {
+            return $this->render('home.home');
+        }else{
+            header('Location: login');
+        }
     }
 
     public function login(): bool|array|string
@@ -93,6 +97,15 @@ class HomeController extends Controller
     public function test4(): bool|array|string
     {
         return $this->render('home.test4');
+    }
+    public function test5(): bool|array|string
+    {
+        return $this->render('home.test5');
+    }
+
+    public function testEmp(): bool|array|string
+    {
+        return $this->render('home.testEmp');
     }
 
 

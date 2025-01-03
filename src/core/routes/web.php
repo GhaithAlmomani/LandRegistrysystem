@@ -16,6 +16,7 @@ Router::get('team', [HomeController::class, 'team']);
 Router::get('home', [HomeController::class, 'home']);
 
 Router::get('login', [HomeController::class, 'login']);
+Router::post('login', [HomeController::class, 'login']);
 
 Router::get('contact', [HomeController::class, 'contact']);
 
@@ -47,6 +48,11 @@ Router::get('test2', [HomeController::class, 'test2']);
 Router::get('test3', [HomeController::class, 'test3']);
 
 Router::get('test4', [HomeController::class, 'test4']);
+
+Router::get('test5', [HomeController::class, 'test5']);
+
+Router::get('testEmp', [HomeController::class, 'testEmp']);
+
 
 
 
