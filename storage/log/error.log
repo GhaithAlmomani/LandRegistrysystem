@@ -244,3 +244,11 @@
 ::1 - 2025-01-02 23:38:43 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /login
 ::1 - 2025-01-03 00:59:29 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /dashboard.php
 ::1 - 2025-01-03 02:05:00 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /phpmyadmin
+::1 - 2025-01-03 02:15:08 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test1
+::1 - 2025-01-04 02:47:14 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /getAllProperties
+::1 - 2025-01-04 02:47:49 - Error View file not found: home\getAllProperties in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /getAllProperties
+::1 - 2025-01-04 02:48:15 - Error View file not found: home\getAllProperties in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /getAllProperties
+::1 - 2025-01-04 02:48:18 - Error View file not found: home\getAllProperties in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /getAllProperties
+::1 - 2025-01-04 03:52:02 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test2
+::1 - 2025-01-04 03:52:03 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test2
+::1 - 2025-01-04 03:53:30 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3

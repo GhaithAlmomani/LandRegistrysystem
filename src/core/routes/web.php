@@ -35,7 +35,7 @@ Router::get('interact', [HomeController::class, 'interact']);
 
 Router::get('learn-more', [HomeController::class, 'learnMore']);
 
-Router::get('test', [HomeController::class, 'test']);
+Router::get('adminAddress', [HomeController::class, 'adminAddress']);
 
 Router::get('update-profile', [HomeController::class, 'updateProfile']);
 
@@ -43,22 +43,25 @@ Router::get('watch-video', [HomeController::class, 'watchVideo']);
 
 Router::get('watch-video2', [HomeController::class, 'watchVideo2']);
 
-Router::get('test2', [HomeController::class, 'test2']);
+Router::get('propertyRegistration', [HomeController::class, 'propertyRegistration']);
 
-Router::get('test3', [HomeController::class, 'test3']);
+Router::get('propertyTransfer', [HomeController::class, 'propertyTransfer']);
 
-Router::get('test4', [HomeController::class, 'test4']);
+Router::get('setEmpAuth', [HomeController::class, 'setEmpAuth']);
 
-Router::get('test5', [HomeController::class, 'test5']);
+Router::get('qrScan', [HomeController::class, 'qrScan']);
 
 Router::get('testEmp', [HomeController::class, 'testEmp']);
 
+Router::get('checkEmpAuth', [HomeController::class, 'checkEmpAuth']);
 
+Router::get('allProperties', [HomeController::class, 'allProperties']);
 
+Router::get('PropertyById', [HomeController::class, 'PropertyById']);
 
+Router::get('PropertyCount', [HomeController::class, 'PropertyCount']);
 
-
-
+Router::get('PropertyInfo', [HomeController::class, 'PropertyInfo']);
 
 
 

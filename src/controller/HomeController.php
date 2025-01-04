@@ -66,9 +66,9 @@ class HomeController extends Controller
         return $this->render('home.learn-more');
     }
 
-    public function test(): bool|array|string
+    public function adminAddress(): bool|array|string
     {
-        return $this->render('home.test');
+        return $this->render('home.adminAddress');
     }
 
     public function updateProfile(): bool|array|string
@@ -85,28 +85,54 @@ class HomeController extends Controller
         return $this->render('home.watch-video2');
     }
 
-    public function test2(): bool|array|string
+    public function propertyRegistration(): bool|array|string
     {
-        return $this->render('home.test2');
+        return $this->render('home.propertyRegistration');
     }
 
-    public function test3(): bool|array|string
+    public function propertyTransfer(): bool|array|string
     {
-        return $this->render('home.test3');
+        return $this->render('home.propertyTransfer');
     }
-    public function test4(): bool|array|string
+    public function setEmpAuth(): bool|array|string
     {
-        return $this->render('home.test4');
+        return $this->render('home.setEmpAuth');
     }
-    public function test5(): bool|array|string
+    public function qrScan(): bool|array|string
     {
-        return $this->render('home.test5');
+        return $this->render('home.qrScan');
     }
 
     public function testEmp(): bool|array|string
     {
         return $this->render('home.testEmp');
     }
+
+    public function checkEmpAuth(): bool|array|string
+    {
+        return $this->render('home.checkEmpAuth');
+    }
+
+    public function allProperties(): bool|array|string
+    {
+        return $this->render('home.allProperties');
+    }
+
+    public function PropertyById(): bool|array|string
+    {
+        return $this->render('home.PropertyById');
+    }
+
+    public function PropertyCount(): bool|array|string
+    {
+        return $this->render('home.PropertyCount');
+    }
+
+    public function PropertyInfo(): bool|array|string
+    {
+        return $this->render('home.PropertyInfo');
+    }
+
 
 
 
