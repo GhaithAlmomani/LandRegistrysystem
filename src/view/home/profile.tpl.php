@@ -17,11 +17,11 @@
                 <div class="flex">
                     <i class="fa-solid fa-house"></i>
                     <div>
-                        <span>4</span>
+                        <span>2</span>
                         <p>Assets owned</p>
                     </div>
                 </div>
-                <a href="#" class="inline-btn">View assets</a>
+                <a href="ownedassets" class="inline-btn">View assets</a>
             </div>
 
             <div class="box">
@@ -43,7 +43,7 @@
                         <p>Recent transaction</p>
                     </div>
                 </div>
-                <a href="#" class="inline-btn">View transactions</a>
+                <a href="recentTransaction" class="inline-btn">View transactions</a>
             </div>
 
         </div>

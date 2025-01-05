@@ -1,5 +1,5 @@
 <section>
-    <h1 class="heading">Emlpoyee Protal</h1>
+    <h1 class="heading">Employee Portal</h1>
 
 
 

@@ -63,6 +63,19 @@ Router::get('PropertyCount', [HomeController::class, 'PropertyCount']);
 
 Router::get('PropertyInfo', [HomeController::class, 'PropertyInfo']);
 
+Router::get('sell', [HomeController::class, 'sell']);
+
+Router::get('sellReq', [HomeController::class, 'sellReq']);
+
+Router::get('recentTransaction', [HomeController::class, 'recentTransaction']);
+
+Router::get('employeePortal', [HomeController::class, 'employeePortal']);
+
+Router::get('adminPortal', [HomeController::class, 'adminPortal']);
+
+
+
+
 
 
 

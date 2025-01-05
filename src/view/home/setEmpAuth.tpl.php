@@ -1,5 +1,5 @@
 <section>
-    <h1 class="heading">Admin Protal</h1>
+    <h1 class="heading">Admin Portal</h1>
 
 <style>
     /* Form Container */

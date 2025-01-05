@@ -133,6 +133,31 @@ class HomeController extends Controller
         return $this->render('home.PropertyInfo');
     }
 
+    public function sell(): bool|array|string
+    {
+        return $this->render('home.sell');
+    }
+
+    public function sellReq(): bool|array|string
+    {
+        return $this->render('home.sellReq');
+    }
+
+    public function recentTransaction(): bool|array|string
+    {
+        return $this->render('home.recentTransaction');
+    }
+
+    public function employeePortal(): bool|array|string
+    {
+        return $this->render('home.employeePortal');
+    }
+
+    public function adminPortal(): bool|array|string
+    {
+        return $this->render('home.adminPortal');
+    }
+
 
 
 

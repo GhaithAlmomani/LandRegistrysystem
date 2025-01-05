@@ -37,33 +37,25 @@
                 <td>14</td>
                 <td>-</td>
                 <td>-</td>
-                <td>-</td>
                 <td>866</td>
 
 
 
             </tr>
-            <!--<tr>
-               <td>Jane Smith</td>
-               <td>janesmith@example.com</td>
-               <td>Individual</td>
-               <td>Property C</td>
-               <td>Transaction 3</td>
-               <td>$5,000</td>
-               <td>2023-02-20</td>
-               <td>Active</td>
+                <td>2</td>
+                <td>Khaled Khader</td>
+                <td>Amman Directorate</td>
+                <td>Amman</td>
+                <td>Almsherfeh</td>
+                <td>Northen Marka</td>
+                <td>Own</td>
+                <td>0031</td>
+                <td>28124</td>
+                <td>16</td>
+                <td>-</td>
+                <td>-</td>
+                <td>920</td>
             </tr>
-            <tr>
-               <td>Bob Johnson</td>
-               <td>bobjohnson@example.com</td>
-               <td>Individual</td>
-               <td>Property D, Property E</td>
-               <td>Transaction 4, Transaction 5</td>
-               <td>$20,000</td>
-               <td>2023-03-10</td>
-               <td>Inactive</td>
-            </tr> -->
-            <!-- Add more rows as needed -->
             </tbody>
         </table>
     </div>

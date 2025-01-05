@@ -1,4 +1,5 @@
 <section>
+    <h1 class="heading">Employee Portal</h1>
 
     <style>
         /* Container Styling */

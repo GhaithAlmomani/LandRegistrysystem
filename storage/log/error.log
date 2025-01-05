@@ -252,3 +252,11 @@
 ::1 - 2025-01-04 03:52:02 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test2
 ::1 - 2025-01-04 03:52:03 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test2
 ::1 - 2025-01-04 03:53:30 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3
+::1 - 2025-01-04 20:09:15 - Error View file not found: home\PropertyInfo in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /PropertyInfo
+::1 - 2025-01-04 20:09:44 - Error View file not found: home\testEmp in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /testEmp
+::1 - 2025-01-04 20:14:52 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3
+::1 - 2025-01-04 20:17:38 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /watch-video-e-sell
+::1 - 2025-01-04 20:17:45 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /watch-video-e-gov
+::1 - 2025-01-04 20:17:58 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /watch-video-2
+::1 - 2025-01-04 22:07:11 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3
+::1 - 2025-01-05 00:47:19 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3

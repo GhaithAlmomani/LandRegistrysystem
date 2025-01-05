@@ -19,7 +19,7 @@
         <div class="box">
             <h3 class="title">Sell and Registeration</h3>
             <p class="tutor">Start selling or Registeration your assets.</p>
-            <a href="contact" class="inline-btn">Start Now</a>
+            <a href="sell" class="inline-btn">Start Now</a>
         </div>
 
         <div class="box">
