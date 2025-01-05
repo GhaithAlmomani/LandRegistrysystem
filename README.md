@@ -1,7 +1,6 @@
-# PHP MVC Framework for University Projects
+# Land Registration and Transfer System based on  PHP MVC Framework 
 
-A lightweight PHP MVC framework tailored for university students to create graduation projects with ease and efficiency.
-
+A secure and efficient platform for registering, transferring, and managing land properties. This system allows users to register property details, transfer ownership, and authenticate transactions using advanced technologies such as QR codes and blockchain. With seamless integration and data encryption, it ensures transparency, security, and ease of use for all stakeholders involved.
 ## Features
 - **AutoLoader**: Simplifies class management by automatically loading required files.
 - **Log Class**: Tracks programming errors and debugging information.
@@ -16,7 +15,7 @@ A lightweight PHP MVC framework tailored for university students to create gradu
 ## Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/xDayeh/wise.git
+   git clone https://github.com/GhaithAlmomani/LandRegistrysystem.git 
    ```
 2. Navigate to the project directory and set up your server environment.
 3. Ensure that the following files have write permissions:
@@ -42,8 +41,8 @@ A lightweight PHP MVC framework tailored for university students to create gradu
    - Open the Apache configuration file: `C:/Apache24/conf/httpd.conf`.
    - Modify the `DocumentRoot` and `<Directory>` sections to point to `htdocs/wise/public`. For example:
      ```
-     DocumentRoot "C:/Apache24/htdocs/wise/public"
-     <Directory "C:/Apache24/htdocs/wise/public">
+     DocumentRoot "C:/Apache24/htdocs/LandRegistrysystem/public"
+     <Directory "C:/Apache24/htdocs/LandRegistrysystem/public">
          AllowOverride All
          Require all granted
      </Directory>
@@ -105,4 +104,6 @@ A lightweight PHP MVC framework tailored for university students to create gradu
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
 ## License
+All rights reserved to https://github.com/xdayeh
+
 Free to use without restrictions.
