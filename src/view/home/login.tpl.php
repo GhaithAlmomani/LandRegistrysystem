@@ -59,6 +59,7 @@ if( isset( $_POST[ 'Login' ] ) && isset ($_POST['username']) && isset ($_POST['p
         $data->bindParam( ':user', $username, PDO::PARAM_STR );
         $data->execute();
         $_SESSION['Username'] 	= $username;
+        $_SESSION['role'] 	= $row[ 'AdminID' ];
         header('Location: home');
         exit();
     } else {

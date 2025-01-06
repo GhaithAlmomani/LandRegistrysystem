@@ -8,7 +8,7 @@
             <img src="images/pic-1.jpg" alt="">
             <h3 class="name">Name</h3>
             <p class="role">Individual</p>
-            <a href="update" class="inline-btn">update profile</a>
+            <a href="update-profile" class="inline-btn">update profile</a>
         </div>
 
         <div class="box-container">
