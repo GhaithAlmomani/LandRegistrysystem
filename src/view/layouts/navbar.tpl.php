@@ -1,3 +1,15 @@
+<style>
+    .side-bar .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+</style>
+
+
 <div class="side-bar">
 
     <div id="close-btn">

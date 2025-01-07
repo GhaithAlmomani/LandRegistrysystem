@@ -18,7 +18,13 @@
 
     <!--<p>select profile <span>*</span></p>
     <input type="file" accept="image/*" required class="box">-->
-    <input type="submit" value="Register new user" name="submit" class="btn">
+    <input type="submit" value="Register new user" name="submit" class="btn" href="home">
+
+    <section class="box">
+        <h4>Already have an account?</h4>
+        <a href="login" class="btn">login</a>
+    </section>
+
 </form>
 
 </section>

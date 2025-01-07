@@ -86,10 +86,18 @@ if( isset( $_POST[ 'Login' ] ) && isset ($_POST['username']) && isset ($_POST['p
     <form action="" method="post" enctype="multipart/form-data">
         <h3>login Now</h3>
         <p>Username<span>*</span></p>
-        <input type="text" name="username" placeholder="Enter your Username" required maxlength="50" class="box">
+        <input type="text" name="username" placeholder="Enter your Username" required minlength="8" maxlength="50" class="box">
         <p>Password<span>*</span></p>
-        <input type="password" name="password" placeholder="Enter your password" required maxlength="20" class="box">
+        <input type="password" name="password" placeholder="Enter your Password" required minlength="8" maxlength="20" class="box">
         <input type="submit" value="Login" name="Login" class="btn">
+
+        <section class="box">
+            <h4>Don't have an account?</h4>
+            <a href="register" class="btn">Register</a>
+        </section>
+
     </form>
+
+
 
 </section>

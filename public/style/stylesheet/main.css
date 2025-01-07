@@ -1418,3 +1418,59 @@ tr:hover {
     background-color: var(--white); /* Background color for the table container */
     padding: 0rem; /* Padding around the table */
 }
+
+
+/* إعدادات عامة للنافذة المنسدلة */
+.user-container {
+    position: relative;
+}
+
+.profile {
+    display: none;    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--white);
+    border: var(--border);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    z-index: 10;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+.user-container:hover .profile {
+    display: block;
+}
+
+.profile .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.profile .btn, .profile .option-btn {
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.profile .btn:hover, .profile .option-btn:hover {
+    background-color: var(--light-color);
+}

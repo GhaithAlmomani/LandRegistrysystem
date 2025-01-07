@@ -265,3 +265,19 @@
 ::1 - 2025-01-06 00:56:03 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /update-profile
 ::1 - 2025-01-06 00:56:33 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /update-profile
 ::1 - 2025-01-06 00:56:38 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /update-profile
+::1 - 2025-01-06 03:15:27 - Error View file not found: home\login in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /login
+::1 - 2025-01-06 03:15:53 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /index
+::1 - 2025-01-06 03:16:25 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /index.tpl.php
+::1 - 2025-01-06 03:17:53 - Error View file not found: home\login in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /login
+::1 - 2025-01-06 03:18:54 - Error View file not found: LandRegistrysystem\login in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /login
+::1 - 2025-01-06 03:41:02 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /test3
+::1 - 2025-01-06 04:03:53 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /login.php
+::1 - 2025-01-06 04:03:59 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /login.php
+::1 - 2025-01-06 20:15:21 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /url('style/javascript/main.js');
+::1 - 2025-01-06 20:15:24 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /url('style/javascript/main.js');
+::1 - 2025-01-06 20:15:47 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /url('style/javascript/main.js');
+::1 - 2025-01-06 21:43:33 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /register
+::1 - 2025-01-06 21:45:33 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /register
+::1 - 2025-01-06 21:47:23 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /register
+::1 - 2025-01-06 21:49:22 - Error Page Not Found in C:\Apache24\htdocs\LandRegistrysystem\src\core\Router.php on line 81 /register
+::1 - 2025-01-07 05:40:28 - Error View file not found: home\employee in C:\Apache24\htdocs\LandRegistrysystem\src\core\View.php on line 15 /employee

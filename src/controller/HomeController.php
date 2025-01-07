@@ -161,13 +161,47 @@ class HomeController extends Controller
 
     public function employeePortal(): bool|array|string
     {
+        {
+            if (isset($_SESSION['Username'])) {
+                if($_SESSION['role'] == 3){
+                    return $this->render('home.adminPortal');
+                }
+                else{
+                    if($_SESSION['role'] == 2)
+                    {return $this->render('home.employeePortal');
+                    }
+                    else{
+                        return $this->render('home.home');
+                    }
+                }
+
+            }else{
+                header('Location: login');
+            }
         return $this->render('home.employeePortal');
-    }
+    }}
 
     public function adminPortal(): bool|array|string
     {
+        {
+            if (isset($_SESSION['Username'])) {
+                if($_SESSION['role'] == 3){
+                    return $this->render('home.adminPortal');
+                }
+                else{
+                    if($_SESSION['role'] == 2)
+                    {return $this->render('home.employeePortal');
+                    }
+                    else{
+                        return $this->render('home.home');
+                    }
+                }
+
+            }else{
+                header('Location: login');
+            }
         return $this->render('home.adminPortal');
-    }
+    }}
 
 
 
